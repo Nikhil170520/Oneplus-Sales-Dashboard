@@ -9,7 +9,7 @@ import random
 # ── Page config ─────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="OnePlus Sales Dashboard",
-    page_icon="Oneplus_Sales/logo.png",
+    page_icon="d:\VS Code\projects\Oneplus_Sales\logo.png",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -170,7 +170,7 @@ if df.empty:
 col1, col2 = st.columns([1, 10])
 
 with col1:
-   st.image("Oneplus_Sales/logo.png", width=50)
+   st.image(r"d:\VS Code\projects\Oneplus_Sales\logo.png", width=50)
 
 with col2:
     st.markdown(
