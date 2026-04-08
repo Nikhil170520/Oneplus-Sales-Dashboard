@@ -1,5 +1,4 @@
-streamlit==1.32.2
+streamlit==1.33.0
 pandas==2.2.1
 numpy==1.26.4
 plotly==5.20.0
-streamlit run "d:/Projects/Oneplus_Sales/app.py"
